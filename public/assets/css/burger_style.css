@@ -19,13 +19,15 @@ h1 {
 
 
 h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 32px;
+    font-family: 'Ranchers', cursive;
+    font-size: 40px;
     margin-bottom: 10px;
+    margin-top: 0;
+    color: #fffef1;;
 }
 
 button {
-    background-color: blanchedalmond;
+    background-color: #fbffd7;
     border: none;
     text-align: center;
     text-decoration: none;
@@ -35,8 +37,9 @@ button {
 }
 
 button:hover {
-    border: blanchedalmond 2px solid;
-    background-color: white;
+    border: #fbffd7 1px solid;
+    background-color: transparent;
+    color: #fffef1;
 }
 
 /* ----- HEADER ------- */
@@ -62,25 +65,19 @@ header {
     right: 0px;
     margin: 0;
     background: rgba(148, 165, 52, 0.7);
-    color: #f1f1f1;
+    color: #fffef1;
     width: 100%;
     padding: 20px;
 }
 
 
 /* ----- CONTENT SECTION ------- */
-.column {
-    float: left;
-    width: 50%;
-    padding: 15px;
-    -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
 
 .wrapper {
     display: -webkit-flex;
-  display: flex;
+    display: flex;
+    padding: 0 20px;
+    background-color: tomato;
 }
 
 .wrapper:after {
@@ -89,28 +86,40 @@ header {
     clear: both;
 }
 
-section {
-    margin-left: 20px;
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
 }
-
-.not-devoured {}
-
-.devoured {}
 
 ul {
     list-style: none;
 }
 
 li {
+    padding: 10px;
+}
+
+.burgerName {
     font-size: 24px;
+    margin-right: 20px;
+    color: #fffef1;
 }
 
 /* ----- ADD A BURGER SECTION ------- */
 
 .add {
-    background-color: rgb(49, 122, 49);
-    color: #f1f1f1;
+    background-color: rgba(148, 165, 52, 0.7);
+    
     text-align: center;
+}
+
+.fas {
+    min-width: 30px;
 }
 
 .create-form {
@@ -122,14 +131,6 @@ input[type=text] {
     border: none;
     padding: 10px;
 }
-
-label {
-    font-size: 20px;
-}
-
-
-
-
 
 @media screen and (max-width:600px) {
     .column {

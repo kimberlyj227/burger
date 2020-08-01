@@ -28,6 +28,10 @@ $(function()  {
     // ADD BURGER
     $(".create-form").on("submit", function(event) {
         event.preventDefault();
+        
+        if ($("#burger").val() === "") {
+            return false;
+        };
 
         const newBurger = {
             burger_name: $("#burger").val().trim()
