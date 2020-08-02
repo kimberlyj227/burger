@@ -29,7 +29,7 @@ h3 {
 }
 
 button {
-    background-color: #fbffd7;
+    background-color: wheat;
     border: none;
     text-align: center;
     text-decoration: none;
@@ -51,22 +51,23 @@ header {
     text-align: center;
     padding: 20px;
     margin: 0;
+    background-color: rgb(247, 233, 207);
 
 }
 
 
 #img {
     width: auto;
-    max-height: 500px;
+    max-height: 300px;
 }
 
 .title {
 
     position: absolute;
-    top: 250px;
+    top: 100px;
     right: 0px;
     margin: 0;
-    background: rgba(148, 165, 52, 0.7);
+    background: rgba(166, 185, 59, 0.7);
     color: #fffef1;
     width: 100%;
     padding: 20px;
@@ -111,7 +112,7 @@ li {
 /* ----- ADD A BURGER SECTION ------- */
 
 .add {
-    background-color: rgba(148, 165, 52, 0.7);
+    background-color: rgba(166, 185, 59, 0.7);
     
     text-align: center;
 }
@@ -124,6 +125,7 @@ input[type=text] {
     background-color: white;
     border: none;
     padding: 10px;
+    width: 250px;
 }
 
 @media only screen and (max-width:600px) {
