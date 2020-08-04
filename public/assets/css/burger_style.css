@@ -77,7 +77,6 @@ header {
 /* ----- CONTENT SECTION ------- */
 
 .wrapper {
-    /* display: flex; */
     padding: 0 20px;
     background-color: tomato;
 }
@@ -128,7 +127,7 @@ input[type=text] {
     width: 250px;
 }
 
-@media only screen and (max-width:8500px) {
+@media only screen and (max-width:850px) {
     .column {
         width: 100%;
     }
